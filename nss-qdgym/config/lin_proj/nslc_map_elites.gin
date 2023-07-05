@@ -1,0 +1,5 @@
+include "config/lin_proj/shared.gin"
+include "config/algorithms/nslc_map_elites.gin"
+experiment.name = "NSLC MAP-Elites LinProj"
+
+GaussianEmitter.sigma0 = 0.5

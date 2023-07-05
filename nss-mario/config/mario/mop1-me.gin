@@ -1,0 +1,5 @@
+include "config/mario/me.gin"
+
+GaussianEmitter.selector = @get_mop1_front_elites
+
+experiment.name = "MOP1-ME Sky-Jump"

@@ -1,0 +1,3 @@
+include "config/qd_walker/shared.gin"
+include "config/algorithms/nss_pga_me.gin"
+experiment.name = "NSS-PGA-ME QD Walker (100 batch size)"

@@ -1,0 +1,3 @@
+include "config/qd_hopper/shared.gin"
+include "config/algorithms/mop2_map_elites.gin"
+experiment.name = "MOP2 MAP-Elites QD Hopper"

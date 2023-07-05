@@ -1,0 +1,3 @@
+include "config/qd_hopper/shared.gin"
+include "config/algorithms/edocs_map_elites.gin"
+experiment.name = "EDO-CS MAP-Elites QD Hopper"

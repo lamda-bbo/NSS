@@ -1,0 +1,9 @@
+include "config/mario/me.gin"
+
+Manager.emitter_types = [(@GaussianEmitter, 1)]
+
+GaussianEmitter.batch_size = 150
+
+GaussianEmitter.selector = @get_nss_front_elites
+
+experiment.name = "NSS-ME Sky-Jump"

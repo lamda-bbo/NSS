@@ -1,0 +1,3 @@
+include "config/qd_hopper/shared.gin"
+include "config/algorithms/mop3_pga_me.gin"
+experiment.name = "MOP3 PGA-ME QD Hopper (100 batch size)"

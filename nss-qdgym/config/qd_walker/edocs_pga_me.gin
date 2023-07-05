@@ -1,0 +1,3 @@
+include "config/qd_walker/shared.gin"
+include "config/algorithms/edocs_pga_me.gin"
+experiment.name = "EDO-CS PGA-ME QD Walker (100 batch size)"

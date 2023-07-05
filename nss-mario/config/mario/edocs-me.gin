@@ -1,0 +1,5 @@
+include "config/mario/me.gin"
+
+GaussianEmitter.selector = @get_edocs_elites
+
+experiment.name = "EDOCS-ME Sky-Jump"

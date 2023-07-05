@@ -1,0 +1,6 @@
+include "config/mario/me.gin"
+
+GaussianEmitter.selector = @get_nslc_front_elites
+get_nslc_front_elites.k = 320
+
+experiment.name = "NSLC-ME Sky-Jump"

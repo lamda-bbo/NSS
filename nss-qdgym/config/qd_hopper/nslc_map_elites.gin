@@ -1,0 +1,3 @@
+include "config/qd_hopper/shared.gin"
+include "config/algorithms/nslc_map_elites.gin"
+experiment.name = "NSLC MAP-Elites QD Hopper"

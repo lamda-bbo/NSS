@@ -1,0 +1,11 @@
+Manager.archive_type = @GridArchive
+Manager.emitter_types = [(@GaussianEmitter, 1)]
+Manager.is_dqd = False
+Manager.use_td3 = False
+Manager.call_jacobian = False
+
+GaussianEmitter.selector = @get_nslc_elites
+GaussianEmitter.sigma0 = 0.02
+GaussianEmitter.batch_size = 100
+
+get_nslc_front_elites.k = 15

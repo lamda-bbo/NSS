@@ -1,0 +1,11 @@
+include "config/mario/cma_me.gin"
+
+Manager.max_evals = 100000
+
+Manager.emitter_types = [(@GaussianEmitter, 1)]
+
+GaussianEmitter.selector = @get_random_elites
+GaussianEmitter.sigma0 = %sigma0
+GaussianEmitter.batch_size = 150
+
+experiment.name = "ME Sky-Jump"

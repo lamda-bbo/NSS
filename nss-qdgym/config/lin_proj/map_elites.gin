@@ -1,0 +1,5 @@
+include "config/lin_proj/shared.gin"
+include "config/algorithms/map_elites.gin"
+experiment.name = "MAP-Elites LinProj (distance)"
+
+GaussianEmitter.sigma0 = 0.5

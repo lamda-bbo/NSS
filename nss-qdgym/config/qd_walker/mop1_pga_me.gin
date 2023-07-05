@@ -1,0 +1,3 @@
+include "config/qd_walker/shared.gin"
+include "config/algorithms/mop1_pga_me.gin"
+experiment.name = "MOP1 QD Walker (100 batch size)"

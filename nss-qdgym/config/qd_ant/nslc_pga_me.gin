@@ -1,0 +1,3 @@
+include "config/qd_ant/shared.gin"
+include "config/algorithms/nslc_pga_me.gin"
+experiment.name = "NSLC PGA-ME QD Ant (100 batch size)"

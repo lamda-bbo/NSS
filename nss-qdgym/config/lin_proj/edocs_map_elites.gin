@@ -1,0 +1,5 @@
+include "config/lin_proj/shared.gin"
+include "config/algorithms/edocs_map_elites.gin"
+experiment.name = "EDO-CS MAP-Elites LinProj"
+
+GaussianEmitter.sigma0 = 0.5

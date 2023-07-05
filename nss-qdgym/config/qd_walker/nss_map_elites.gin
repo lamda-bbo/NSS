@@ -1,0 +1,3 @@
+include "config/qd_walker/shared.gin"
+include "config/algorithms/nss_map_elites.gin"
+experiment.name = "NSS-MAP-Elites QD Walker"

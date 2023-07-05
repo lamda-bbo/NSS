@@ -1,0 +1,44 @@
+# Shared configuration for LinProj (distance) experiments.
+
+#
+# Manager
+#
+
+# Algorithm
+Manager.total_evals = 1000000
+Manager.n_evals = 1
+Manager.use_norm_obs = False
+Manager.experience_evals = 1
+Manager.distributed_eval = False
+
+# Logging
+Manager.archive_save_freq = -1
+Manager.reload_save_freq = 100
+Manager.metrics_save_freq = 50
+Manager.calc_nbss_front = False
+Manager.best_robustness = 10
+
+#
+# Objective module
+#
+
+Manager.obj_name = "lin_proj"
+LinProjConfig.env_id = "LinProjDistance"
+LinProjConfig.objective = @distance
+# LinProjConfig.initial_sol = 0
+# LinProjConfig.target_shift = 0.0
+LinProjConfig.sol_dim = 100
+LinProjConfig.behavior_sol_dim = 50
+LinProjConfig.bahavior_dim = 2
+LinProjConfig.noise = 0
+distance.beta = 0.2
+
+#
+# Archives
+#
+
+GridArchive.dims = [120, 120]
+GridArchive.ranges = [
+    [@lin_proj.get_lin_proj_lower_bound(), @lin_proj.get_lin_proj_upper_bound()],
+    [@lin_proj.get_lin_proj_lower_bound(), @lin_proj.get_lin_proj_upper_bound()]
+]
